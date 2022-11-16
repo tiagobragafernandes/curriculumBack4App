@@ -1,0 +1,88 @@
+.conteudo-curriculo__quem-sou, .conteudo-curriculo__objetivos,
+.conteudo-curriculo__habilidades, .conteudo-curriculo__linguagens,
+.conteudo-curriculo__informacoes-contato{
+    width: 95%;
+    margin: 0 auto;
+}
+
+.texto-sobre{
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.titulo-menor{
+    font-weight: 500;
+    margin: 20px 0px 10px 0px;
+    font-size: 18px;
+}
+
+.informacoes-extras{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    margin-top: 45px;
+    align-items: center;
+}
+
+.linguagens-especificas{
+    margin-bottom: 10px;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.titulo-linguagens{
+    margin-bottom: 0;
+}
+
+.proxima-pagina{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.experiencias{
+    margin-bottom: -20px;
+}
+
+.experiencias-titulo{
+    width: 95%;
+    margin: 0 auto;
+}
+
+.espacamento-experiencias{
+    width: 95%;
+    margin: 20px auto;
+}
+
+.titulo-menor{
+    font-weight: 500;
+    margin: 20px 0px 10px 0px;
+    font-size: 18px;
+}
+
+.escolaridade{
+    margin-top: 30px;
+}
+
+.descricao-experiencias{
+    font-weight: 400;
+    margin: 10px 0px 20px 0px; 
+    font-size: 18px;
+}
+
+#descricao-contato{
+    display: none;
+    list-style: none;
+    padding: 0;
+}
+
+@media only screen and (max-width: 425px){
+    .texto-sobre{
+        padding: 0;
+    }
+}
+

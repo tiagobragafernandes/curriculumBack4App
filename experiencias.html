@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style\main-style\fixed-style.css">
+    <link rel="stylesheet" href="style\main-style\variable-styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;400;500;800&display=swap"
+        rel="stylesheet">
+    <link rel="shortcut icon" href="assets\imgs\icon\curriculum-icone.png" type="image/x-icon">
+    <script src="assets\pagina-fade\fade.js"></script>
+    <script src="assets\botao-escondido\contato-escondido-1.5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/parse/3.4.4/parse.min.js"></script>  
+    <script src="assets/back4App/index.js" defer></script>      
+    <title>Currículum Vittae - Tiago Braga</title>
+</head>
+
+<body id="body">
+    <header class="cabecalho">
+        <div class="cabecalho-textos">
+            <h1 class="cabecalho-textos__titulo">Tiago Braga Fernandes</h1>
+            <p class="cabecalho-textos__paragrafo">ENGENHEIRO AGRÔNOMO E ESTUDANTE DE SISTEMAS PARA INTERNET 2º PERÍODO.</p>
+        </div>
+        <div class="cabecalho-imagem">
+            <img src="assets\imgs\header-img\tb-selfie.png" alt="Foto do tipo selfie de tiago braga" class="cabecalho-imagem__custom">
+        </div>
+    </header>
+    <main class="conteudo-curriculo">
+        <div class="conteudo-curriculo__borda"></div>
+        <section class="experiencias">
+            <div class="experiencias-titulo">
+                <h2 class="titulos-pagina">EXPERIÊNCIAS</h2>
+            </div>
+            <div id="experiencias">
+                <!-- conteúdo dinâmicamente gerado através do back-end back4App -->
+            </div>
+            <div class="escolaridade espacamento-experiencias">
+                <h2 class="titulos-pagina">ESCOLARIDADE</h2>
+            </div>
+            <div class="unicap espacamento-experiencias">
+                <h3 class="titulo-menor">&#10148; Universidade Católica de Pernambuco</h3>
+                <h4 class="descricao-experiencias">- Sistemas para Internet</h4>
+                <ul class="descricao-experiencias">
+                    <li>Primeiro Período</li>
+                    <li>Turno: Noite</li>
+                    <li>Previsão de conclusão: 2024.2</li>
+                </ul>
+            </div>
+            <div class="rural espacamento-experiencias">
+                <h3 class="titulo-menor">&#10148; Universidade Federal Rural de Pernambuco</h3>
+                <h4 class="descricao-experiencias">- Bacharelado em Engenharia Agronômica</h4>
+                <ul class="descricao-experiencias">
+                    <li>Conclusão: 2021.2</li>
+                </ul>
+            </div>
+        </section>
+        <section class="informacoes-extras">
+            <div class="informacoes-contato_div">
+                <h2 class="titulos-pagina titulos-pagina__texto">INFORMAÇÕES DE CONTATO</h2>
+                <button class="informacoes-contato__botao" onclick="mostrarContatos()">Clique Aqui</button>
+                <div class="contatos-escondidos">
+                    <ul class="texto-sobre" id="descricao-contato" style="display: none;">
+                        <li>Telefone: (81) 99483-5494</li>
+                        <li>E-mail: tibrafe@gmail.com</li>
+                        <li><a href="https://github.com/tiagobragafernandes" target="poupup">Github</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="certificados">
+                <h2 class="titulos-pagina">CERTIFICAÇÕES</h2>
+                <a class="certificados-botao" target="popup"
+                    href="https://cursos.alura.com.br/user/tibrafe/fullCertificate/89599f480cbbf817ee3bea613d030d7e"><button>Clique
+                        Aqui</button></a>
+            </div>
+        </section>
+        <section class="proxima-pagina">
+            <div class="proxima-pagina__div">
+                <h2 class="titulos-pagina"></h2>
+                <a class="proxima-pagina__botao" onclick="desaparecer()" href="index2-0.html"><button>Página anterior</button></a>
+            </div>
+        </section>
+    </main>
+</body>
